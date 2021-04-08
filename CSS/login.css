@@ -1,0 +1,37 @@
+.login{
+    background-image: url(../IMAGE/Index/Thiết\ kế\ không\ tên.png) ;
+    text-align: center;
+    width: 500px;
+    height: 350px;
+    margin-left: 400px;
+}
+body{
+ font-size: 18px;
+}
+button{
+    font-size: 20px;
+    color: black;
+    background-color: skyblue;
+    border-radius: 25px;
+    cursor: pointer;
+}
+p{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 30px;
+    margin-left: 235px;
+    background-color: skyblue; 
+}
+.menu-login>button {
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.menu-login>button a {  
+    display: inline-flex;
+    margin: 5px 10px;
+}
+a{
+    text-decoration: none;
+}

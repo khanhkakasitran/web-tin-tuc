@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <h1 style="color: rgb(131, 194, 245);">Đăng Nhập</h1>
+        <form name="dangnhap" action="">
+            <input type="text" name="txtLogin" value placeholder="User name" size="30" style="margin-bottom: 10px;"> <br>
+            <input type="password" name="txtPass" value placeholder="Password" size="30" style="margin-bottom: 10px;"> <br>
+            <label for="Rememberme">Remember me</label>
+            <input type="checkbox" name="Rememberme" id="Rememberme" value="Rem">
+            <a href="./PasswordRetrieval.html" style="text-decoration: none;">Forgot Password?</a> <br>
+            <label for="">New User?</label>
+            <a href="../HTML/Register.html" style="text-decoration: none;">Register here</a> <br>
+            <button style="margin-top: 20px; height: 50px; width: 100px;"onclick="alert('Đăng nhập thành công!')"><a href="./Index.html" style=" text-decoration: none;">Sign In</a></button>
+            <p>or
+            </p>
+            <div class="menu-login">
+                <button><a href="https://facebook.com" ><i class="fab fa-facebook-square"></i> Facebook</a></button>
+                <button><a href="https://www.google.com.vn" ><i class="fab fa-google-plus"></i> Google</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
